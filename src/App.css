@@ -36,3 +36,71 @@
     transform: rotate(360deg);
   }
 }
+
+
+body{
+  background-color: rgb(207, 213, 247);
+}
+
+
+.navbar{
+  margin-top: 5%;
+  border-radius: 15px;
+  margin: 3%;
+}
+
+.navbar a{
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: 700;
+
+  
+}
+
+.welcomeDiv, .listDiv, .articleListDiv, .articleDiv, .articleContents, #articleDetails, .newArticleDiv, .statusList, .editDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.articleListDiv{
+  list-style-type: none;
+}
+
+.articleListDiv li, .searchDiv li{ 
+  list-style-type: none;
+}
+
+.editPageLink{
+  font-size: 25px;
+  font-weight: 400;
+  color: rgb(10, 56, 10);
+}
+
+.statusNav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.searchDiv{
+  justify-content: center;
+}
+
+.searchInputDiv {
+  display: flex;
+  margin-left:auto;
+  margin-right:auto;
+  justify-content: center;
+}
+
+.searchInputDiv input{
+  width: 30%;
+  
+}
+
+textarea {
+  height: 15em;
+  width: 40em;
+}
