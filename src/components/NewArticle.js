@@ -59,6 +59,7 @@ function NewArticle(){
             <br></br>
             <label>
                 Body:
+                <br></br>
                 <textarea value={body} type="text" onChange={handleBody}/>
             </label>
             <br></br>
